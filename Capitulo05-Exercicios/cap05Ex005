@@ -1,0 +1,15 @@
+package main
+
+import "fmt"
+
+func main() {
+	a := `Deus 
+	é 
+	o 
+	Senhor`
+	fmt.Println(a)
+}
+
+// Crie uma variável de tipo string utilizando uma raw string literal.
+// Demonstre-a.
+// Solução: https://play.golang.org/p/RkpqPpRWuo

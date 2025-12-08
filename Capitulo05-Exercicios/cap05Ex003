@@ -1,0 +1,20 @@
+package main
+
+import "fmt"
+
+const a = 10
+const b = "Deus é o Senhor"
+const c = 7.50
+
+const d int = 20
+const e string = "Deus é o Senhor"
+const f float64 = 14.50
+
+func main() {
+	fmt.Printf("%v\n%v\n%v\n", a, b, c)
+	fmt.Printf("%v\n%v\n%v\n", d, e, f)
+}
+
+// Crie constantes tipadas e não-tipadas.
+// Demonstre seus valores.
+// Solução: https://play.golang.org/p/eWnKI59ual
